@@ -107,7 +107,7 @@ def main():
 				predictor = joblib.load(open(os.path.join("resources/KNN.pkl"),"rb"))
 
 			if model_choice =="Linear SVM":
-				predictor = joblib.load(open(os.path.join("resources/SVM.pkl"),"rb"))
+				predictor = joblib.load(open(os.path.join("resources/SVC.pkl"),"rb"))
 
 
 			if st.button("Classify"):
